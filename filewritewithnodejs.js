@@ -16,6 +16,6 @@ m.writeFile("a.txt","Welcome to hell",function(err){
         })
     })
 
-m.writeFileSync("a.txt","anmol tera kya hoga")
+m.writeFileSync("a.txt","writing in the file")
 var n=m.readFileSync("a.txt")
 console.log(n.toString())
